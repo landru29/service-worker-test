@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Notifications</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic" type="text/css">
+    <style>
+        #notification {
+            display: none;
+        }
+
+        #notification.show {
+            display: block;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <h1>Boilerplate Service Worker</h1>
+        <a href="reload.html">reload</a>
+        <div id="notification">A new version of this app is available. Click <a id="reload">here</a> to update.</div>
+        <p>Below is an image of earth from NASA</p>
+
+        <p><img src="" alt="Image of Earth from nasa" class="targetImage"></p>
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>
